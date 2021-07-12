@@ -1,4 +1,4 @@
 language: go
 branches:
   only:
-  -master # 指定监听的分支
+  -main # 指定监听的分支
