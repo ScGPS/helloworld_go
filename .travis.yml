@@ -1,4 +1,6 @@
 language: go
 branches:
   only:
-  -main # 指定监听的分支
+  - main # 指定监听的分支
+script:
+  - go test -v .
